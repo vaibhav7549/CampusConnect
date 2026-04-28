@@ -9,7 +9,6 @@ The application is modularized into several core domains to provide a super-app 
 * **Social Feed:** A dynamic timeline where students can share text and image posts, interact via upvotes and comments, and stay updated with campus events.
 * **Marketplace:** A dedicated space for students to buy, sell, or exchange items within the campus. Includes a "Lost & Found" section.
 * **Real-time Chat & Social:** Connect with peers, send friend requests, and communicate instantly through real-time messaging.
-* **Opportunities:** A hub for discovering campus jobs, internships, research positions, and other career-building opportunities.
 * **Productivity Tools:** Built-in utilities such as a Pomodoro timer and task management features to help students stay focused on academics.
 * **User Profiles & Notifications:** Customizable user profiles with an integrated notification system to keep track of social interactions and updates.
 
