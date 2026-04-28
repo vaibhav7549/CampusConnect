@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Color Palette - Elegant Deep Violet -->
+    <color name="primary">#FF6D28D9</color>
+    <color name="primary_dark">#FF5B21B6</color>
+    <color name="primary_light">#FF8B5CF6</color>
+    <color name="primary_container">#FFF3E8FF</color>
+    <color name="on_primary">#FFFFFFFF</color>
+    <color name="on_primary_container">#FF3B0764</color>
+
+    <!-- Secondary Color Palette - Premium Teal -->
+    <color name="secondary">#FF0F766E</color>
+    <color name="secondary_dark">#FF115E59</color>
+    <color name="secondary_container">#FFCCFBF1</color>
+    <color name="on_secondary">#FFFFFFFF</color>
+
+    <!-- Tertiary -->
+    <color name="tertiary">#FFEC4899</color>
+    <color name="tertiary_container">#FFFDF2F8</color>
+
+    <!-- Error -->
+    <color name="error">#FFE11D48</color>
+    <color name="error_container">#FFFFE4E6</color>
+
+    <!-- Surface / Background -->
+    <color name="surface">#FFFFFFFF</color>
+    <color name="surface_variant">#FFF9FAFB</color>
+    <color name="background">#FFF3F4F6</color>
+    <color name="on_surface">#FF0F172A</color>
+    <color name="on_surface_variant">#FF475569</color>
+
+    <!-- Outline -->
+    <color name="outline">#FFCBD5E1</color>
+    <color name="outline_variant">#FFE2E8F0</color>
+
+    <!-- Specific UI Colors -->
+    <color name="verified_badge">#FF0EA5E9</color>
+    <color name="upvote_active">#FFF43F5E</color>
+    <color name="bookmark_active">#FFEAB308</color>
+    <color name="attendance_good">#FF10B981</color>
+    <color name="attendance_warning">#FFEF4444</color>
+
+    <!-- Opportunity Type Colors -->
+    <color name="type_internship">#FF3B82F6</color>
+    <color name="type_project">#FF14B8A6</color>
+    <color name="type_hackathon">#FF8B5CF6</color>
+
+    <!-- Chat Bubbles -->
+    <color name="bubble_sent">#FF6D28D9</color>
+    <color name="bubble_received">#FFF1F5F9</color>
+    <color name="on_bubble_sent">#FFFFFFFF</color>
+    <color name="on_bubble_received">#FF0F172A</color>
+
+    <!-- Status Bar -->
+    <color name="status_bar">#FFFFFFFF</color>
+
+    <!-- Shimmer/Placeholder -->
+    <color name="shimmer">#FFE2E8F0</color>
+    <color name="shimmer_highlight">#FFF8FAFC</color>
+
+    <!-- Splash gradient -->
+    <color name="splash_start">#FF4C1D95</color>
+    <color name="splash_end">#FF7C3AED</color>
+</resources>

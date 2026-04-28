@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroupFilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/spacing_sm"
+            app:singleSelection="true"
+            app:chipSpacingHorizontal="8dp">
+
+            <com.google.android.material.chip.Chip android:id="@+id/chipAll" style="@style/FilterChip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="All" android:checked="true" />
+            <com.google.android.material.chip.Chip android:id="@+id/chipInternship" style="@style/FilterChip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/internship" />
+            <com.google.android.material.chip.Chip android:id="@+id/chipProject" style="@style/FilterChip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/project" />
+            <com.google.android.material.chip.Chip android:id="@+id/chipHackathon" style="@style/FilterChip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hackathon" />
+        </com.google.android.material.chip.ChipGroup>
+
+        <ProgressBar android:id="@+id/progressBar" android:layout_width="48dp" android:layout_height="48dp" android:layout_gravity="center" android:visibility="gone" />
+        <TextView android:id="@+id/tvEmpty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:text="@string/no_opportunities" android:textColor="@color/on_surface_variant" android:visibility="gone" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerOpportunities"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:padding="@dimen/spacing_sm" />
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/spacing_md"
+        android:src="@drawable/ic_add"
+        app:tint="@color/on_primary" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

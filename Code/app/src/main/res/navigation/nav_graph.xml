@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_feed">
+
+    <fragment
+        android:id="@+id/nav_feed"
+        android:name="com.vaibhav.campusserviceapp.ui.feed.FeedFragment"
+        android:label="Feed" />
+
+    <fragment
+        android:id="@+id/nav_people"
+        android:name="com.vaibhav.campusserviceapp.ui.social.PeopleFragment"
+        android:label="People" />
+
+    <fragment
+        android:id="@+id/nav_chat"
+        android:name="com.vaibhav.campusserviceapp.ui.chat.ChatListFragment"
+        android:label="Chat" />
+
+    <fragment
+        android:id="@+id/nav_productivity"
+        android:name="com.vaibhav.campusserviceapp.ui.productivity.ProductivityFragment"
+        android:label="Productivity" />
+
+    <fragment
+        android:id="@+id/nav_marketplace"
+        android:name="com.vaibhav.campusserviceapp.ui.marketplace.MarketplaceFragment"
+        android:label="Marketplace" />
+
+    <fragment
+        android:id="@+id/nav_opportunities"
+        android:name="com.vaibhav.campusserviceapp.ui.opportunities.OpportunitiesFragment"
+        android:label="Opportunities" />
+
+</navigation>
